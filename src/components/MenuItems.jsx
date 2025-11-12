@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './MenuItems.css'
 
 export default function MenuItems({
@@ -13,6 +13,12 @@ export default function MenuItems({
   showBorder = false,
   image = null,
 }) {
+  const [imageError, setImageError] = useState(false)
+
+  const handleImageError = () => {
+    setImageError(true)
+  }
+
   return (
     <div className={`menu-item ${showBorder ? 'with-border' : ''}`} data-name="Menu Items">
       <div className="menu-item-content">
@@ -32,8 +38,13 @@ export default function MenuItems({
         </div>
         <div className="menu-item-image-container">
           <div className="menu-item-image">
-            {image ? (
-              <img src={image} alt={text} className="menu-item-image-img" />
+            {image && !imageError ? (
+              <img 
+                src={image} 
+                alt={text} 
+                className="menu-item-image-img" 
+                onError={handleImageError}
+              />
             ) : (
               <div className="menu-item-image-placeholder"></div>
             )}
