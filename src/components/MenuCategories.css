@@ -1,0 +1,14 @@
+.menu-categories {
+  width: 375px;
+  min-height: 11916px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  margin-top: 156px;
+  margin-bottom: 60px;
+  background-color: var(--color-utility-nola-light);
+  gap: var(--spacing-p-5);
+  padding-bottom: var(--spacing-p-5);
+}
+

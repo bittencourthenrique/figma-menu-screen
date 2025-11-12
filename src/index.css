@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'ChickenSans';
+  src: url('../fonts/ChickenSans-Regular.otf') format('opentype'),
+       url('../fonts/ChickenSans-Regular.woff2') format('woff2'),
+       url('../fonts/ChickenSans-Regular.woff') format('woff'),
+       url('../fonts/ChickenSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ChickenSans';
+  src: url('../fonts/ChickenSans-Bold.otf') format('opentype'),
+       url('../fonts/ChickenSans-Bold.woff2') format('woff2'),
+       url('../fonts/ChickenSans-Bold.woff') format('woff'),
+       url('../fonts/ChickenSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'ChickenSans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f1ef;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* CSS Variables from design tokens */
+:root {
+  --color-primary-burnt-orange: #f25600;
+  --color-secondary-ada-teal: #01847e;
+  --color-utility-white: #ffffff;
+  --color-utility-nola-dark: #1f1f1f;
+  --color-utility-nola-light: #f5f1ef;
+  --color-utility-grey-1: #595959;
+  --color-opacity-nola-dark-10: rgba(31, 31, 31, 0.1);
+  --color-opacity-nola-dark-75: rgba(31, 31, 31, 0.75);
+  
+  --spacing-p-1: 2px;
+  --spacing-p-2: 4px;
+  --spacing-p-3: 8px;
+  --spacing-p-4: 12px;
+  --spacing-p-5: 16px;
+  --spacing-p-7: 24px;
+  
+  --radius-r-0: 0;
+  --radius-r-5: 20px;
+  --radius-r-7: 999px;
+  
+  --border-width-1px: 1px;
+}
+

@@ -1,0 +1,21 @@
+.section-categories {
+  width: 375px;
+  background-color: var(--color-utility-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--spacing-p-7) var(--spacing-p-5) 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.section-categories p {
+  font-family: 'ChickenSans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--color-utility-nola-dark);
+  width: 100%;
+}
+

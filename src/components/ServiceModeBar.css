@@ -1,0 +1,116 @@
+.service-mode-bar {
+  width: 375px;
+  height: 64px;
+  background-color: var(--color-secondary-ada-teal);
+  border-radius: 0 0 var(--radius-r-5) var(--radius-r-5);
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.service-mode-bar-content {
+  width: 100%;
+  display: flex;
+  gap: var(--spacing-p-4);
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-p-3) var(--spacing-p-5) var(--spacing-p-4);
+  box-sizing: border-box;
+}
+
+.service-mode-bar-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-p-1);
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 0;
+}
+
+.service-mode-bar-header {
+  display: flex;
+  gap: var(--spacing-p-3);
+  align-items: flex-start;
+}
+
+.service-mode-bar-icon-text {
+  display: flex;
+  gap: var(--spacing-p-2);
+  align-items: center;
+}
+
+.pickup-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: var(--color-utility-white);
+}
+
+.pickup-text {
+  font-family: 'ChickenSans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--color-utility-white);
+  white-space: nowrap;
+}
+
+.address-text {
+  font-family: 'ChickenSans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--color-utility-white);
+  min-width: 0;
+}
+
+.change-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 37px;
+  padding: 0 var(--spacing-p-3);
+  border-radius: var(--radius-r-7);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.edit-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  color: var(--color-utility-white);
+}
+
+.change-button-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-p-1);
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--spacing-p-3);
+}
+
+.change-button-text p {
+  font-family: 'ChickenSans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-utility-white);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.change-button-underline {
+  height: 1px;
+  width: 100%;
+  background-color: var(--color-utility-white);
+}
+
