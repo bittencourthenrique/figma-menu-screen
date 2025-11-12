@@ -1,5 +1,6 @@
 .category {
-  width: 375px;
+  width: 100%;
+  max-width: 100%;
   background-color: var(--color-utility-white);
   box-shadow: 0px 1px 2px 0px rgba(31, 31, 31, 0.1);
   display: flex;

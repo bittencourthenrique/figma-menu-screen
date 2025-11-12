@@ -1,5 +1,6 @@
 .back-navigation {
-  width: 375px;
+  width: 100%;
+  max-width: 100%;
   height: 48px;
   background-color: var(--color-utility-white);
   border-top: none;

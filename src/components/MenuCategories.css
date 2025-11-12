@@ -1,5 +1,6 @@
 .menu-categories {
-  width: 375px;
+  width: 100%;
+  max-width: 100%;
   min-height: 11916px;
   display: flex;
   flex-direction: column;

@@ -1,5 +1,6 @@
 .section-categories {
-  width: 375px;
+  width: 100%;
+  max-width: 100%;
   background-color: var(--color-utility-white);
   display: flex;
   flex-direction: column;

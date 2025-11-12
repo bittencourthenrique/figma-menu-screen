@@ -1,5 +1,6 @@
 .infinite-scroll {
-  width: 375px;
+  width: 100%;
+  max-width: 100%;
   min-height: 12132px;
   display: flex;
   flex-direction: column;

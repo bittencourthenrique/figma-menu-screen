@@ -1,5 +1,6 @@
 .service-mode-bar {
-  width: 375px;
+  width: 100%;
+  max-width: 100%;
   height: 64px;
   background-color: var(--color-secondary-ada-teal);
   border-radius: 0 0 var(--radius-r-5) var(--radius-r-5);

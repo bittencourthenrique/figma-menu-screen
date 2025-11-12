@@ -17,9 +17,6 @@ export default function ServiceModeBar() {
           <p className="address-text">5700 Blue Lagoon Dr, Miami, FL...</p>
         </div>
         <button className="change-button">
-          <svg className="edit-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M11.333 2a1.414 1.414 0 0 1 2 2L5.333 12l-3 1 1-3L9.333 2.667a1.414 1.414 0 0 1 2-2z" fill="currentColor"/>
-          </svg>
           <div className="change-button-text">
             <p>Change</p>
             <div className="change-button-underline"></div>
