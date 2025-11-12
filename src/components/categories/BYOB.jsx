@@ -13,7 +13,7 @@ export default function BYOB() {
           description="Create your meal with 3 proteins + 2 sides of your choice."
           feeds="Feeds 3-4 people"
           feeds2={true}
-          image="/assets/byob-image.avif"
+          image={`${import.meta.env.BASE_URL}assets/byob-image.avif`}
         />
       </div>
     </div>
